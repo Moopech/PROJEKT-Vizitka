@@ -18,12 +18,13 @@ tlačítko Facebook aktivní: #2b406e
 
 body {
     background-color: #b2bec3;
-
+    margin: 0%;
 }
 
 .box {
     
     background-color: whitesmoke;
+    text-shadow: 3px 3px 10px  #969fa3;
     text-align: justify;
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
@@ -31,6 +32,8 @@ body {
     padding: 30px;
     margin: 550px;
     border-radius: 10%;
+    overflow-anchor: 
+    S
     }
 
 h1 {
@@ -41,11 +44,14 @@ h1 {
 }
 
 .foto { 
-    position: right;
-    width: 150px 150px;
+    width: 25%;
+    position: relative;
+    left: 180px;
+    bottom: 110px;               
     border: 3px solid white;
     border-radius: 50%;
-   z-index: 1;
+    float: right;
+       
    }       
 
 img{
@@ -53,25 +59,23 @@ img{
 }
 
 
-
-.twitter,
-.facebook {
+.buttons a {
     font-size: 18px;
     text-align:center;
     font-weight: bold;
     text-transform: uppercase;
-    display: block;
-    width: 100%;
     border-radius: 5%;
-    padding: 10px;
-    transition: background-color 0.3s ease
+    padding: 10px; 
+    display: block;
+    text-decoration: none;
+    overflow: auto;
 }
 
 .twitter {
-    background-color:#1da1f2;    
+    background-color:#1da1f2;
     color: white;
        }
-.twitter:active {
+.twitter:hover {
     background-color:#0b7bc1;
 }
 
@@ -79,7 +83,7 @@ img{
     background-color:  #3b5998;
     color: white;
     }
-.facebook:active {
+.facebook:hover {
     background-color: #2b406e;
 }
 
