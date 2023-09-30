@@ -31,8 +31,8 @@ body {
         font-size: 18px;
         font-family: 'Nunito', sans-serif;
         border: 10px solid whitesmoke;
-        padding: 30px;
-        margin: 150px;
+        padding: 15px;
+        margin: 150px auto;
         border-radius: 10%;
         position: relative;
         width: 550px;
@@ -42,7 +42,7 @@ body {
         color: #d63031;
         font-size: 36px;
         font-weight: bold;
-        padding:  30px;
+        padding:  15px;
     }
 
     .foto { 
@@ -51,8 +51,8 @@ body {
         border: 3px solid white;
         border-radius: 50%;
         position: absolute;
-        top: 0%;
-        right: 0%;
+        top: -10%;
+        right: -10%;
         }       
    
     .buttons a {
